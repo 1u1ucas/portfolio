@@ -33,4 +33,19 @@
   .parent {
     gap: 60px;
   }
+
+  .cursor {
+    display: none;
+  }
+  .cursor--text {
+    display: none;
+  }
+
+  .cursor--small {
+    display: none;
+  }
+
+  .cursor--large {
+    display: none;
+  }
 }
