@@ -1,0 +1,62 @@
+@media screen and (max-width: 530px) {
+  .title {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+  }
+
+  .subtitle {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700;
+    text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+  }
+
+  .card-title {
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+
+  .card-text {
+    bottom: -16px;
+  }
+
+  .map {
+    width: 1600px;
+    height: 1400px;
+    left: -346px;
+    top: -464px;
+  }
+
+  .PP {
+    width: 275px;
+    height: 275px;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .JA-card {
+    width: 300px;
+    height: 152px;
+  }
+
+  .Marshall-card {
+    width: 300px;
+    height: 152px;
+  }
+
+  .bolt-card {
+    width: 300px;
+    height: 152px;
+  }
+
+  .JA-card {
+    width: 300px;
+    height: 152px;
+  }
+}

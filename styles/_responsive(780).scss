@@ -1,0 +1,25 @@
+@media screen and (max-width: 780px) {
+  .title {
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 700;
+    text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+  }
+
+  .subtitle {
+    font-family: Manrope;
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+  }
+
+  .map {
+    left: -540px;
+    top: -628px;
+  }
+
+  .PP {
+    width: 225px;
+    height: 225px;
+  }
+}

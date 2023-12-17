@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.title {
+  font-family: Manrope;
+  font-size: 64px;
+  font-weight: 700;
+  text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+}
+
+.subtitle {
+  font-family: Manrope;
+  font-size: 52px;
+  font-weight: 700;
+  text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+}
+
+.card-title {
+  font-family: Manrope;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.page-title {
+  font-family: Manrope;
+  font-size: 32px;
+  font-weight: 600;
+}
+.page-subtitle {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba($color: #fff, $alpha: 0.5);
+}
+
+.page-text {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.page-realisation {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}

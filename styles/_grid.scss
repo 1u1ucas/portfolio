@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(24, 1fr);
+  grid-template-rows: repeat(24, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  padding: 10px;
+  user-select: none;
+}
+
+@for $i from 1 through 24 {
+  .start-col-#{$i} {
+    grid-column-start: $i;
+  }
+}
+
+@for $i from 1 through 24 {
+  .end-col-#{$i} {
+    grid-column-end: $i;
+  }
+}
+
+@for $i from 1 through 24 {
+  .start-row-#{$i} {
+    grid-row-start: $i;
+  }
+}
+
+@for $i from 1 through 24 {
+  .end-row-#{$i} {
+    grid-row-end: $i;
+  }
+}
+
+@for $i from 1 through 24 {
+  .gap-#{$i} {
+    gap: calc(8px + (4px * #{$i}));
+  }
+}

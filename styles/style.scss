@@ -1,0 +1,173 @@
+@import "_grid.scss";
+@import "_root.scss";
+@import "_page.scss";
+@import "_cursor.scss";
+@import "_slider.scss";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid black;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.map {
+  width: 2500px;
+  height: 1700px;
+  background-color: #171e2e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -542px;
+  top: -618px;
+  overflow: hidden;
+  cursor: none;
+  user-select: none;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100vw;
+}
+
+.PP {
+  background-image: url("../assets/IMG_20231012_195814.jpg");
+  border-radius: 500px;
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  box-shadow: -20px -20px rgba($color: #000000, $alpha: 30%);
+  filter: grayscale(100%);
+  transition: filter 1s;
+  cursor: none;
+}
+
+.card:hover .PP {
+  filter: grayscale(0%);
+  transition: filter 1s;
+}
+
+.bolt-card {
+  object-fit: contain;
+  box-shadow: -10px -14px rgba($color: #000000, $alpha: 30%);
+  width: 100%;
+  height: 100%;
+}
+
+.JA-card {
+  object-fit: contain;
+  box-shadow: -10px -14px rgba($color: #000000, $alpha: 30%);
+  width: 100%;
+  height: 100%;
+}
+
+.Marshall-card {
+  object-fit: contain;
+  box-shadow: -10px -14px rgba($color: #000000, $alpha: 30%);
+  width: 100%;
+  height: 100%;
+}
+
+.card-text {
+  text-decoration: none;
+  position: absolute;
+  bottom: -20px;
+  left: 16px;
+  color: white;
+  opacity: 0;
+  transition: opacity 2s;
+  text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
+}
+
+.JA .card-text {
+  bottom: -80px;
+}
+
+.card:hover .card-text {
+  opacity: 1;
+  transition: opacity 3s;
+}
+
+.infos {
+  font-size: 18px;
+  color: #171e2e;
+  opacity: 1;
+  display: flex;
+  cursor: none;
+  transition: display 4s;
+}
+
+.CV {
+  display: none;
+  opacity: 0;
+  transition: display 1s;
+  cursor: none;
+}
+
+.buble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  z-index: 999;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: white;
+  border-radius: 50px;
+  padding: 9px 15px;
+  transition: width 1s;
+  text-overflow: ellipsis;
+}
+
+.buble:hover {
+  width: 325px;
+  transition: width 1s;
+}
+
+.buble:hover .infos {
+  transition: opacity 1s;
+  transition: display 1s;
+  opacity: 0;
+  display: none;
+}
+
+.buble:hover .CV {
+  transition: opacity 1s;
+  transition: display 1s;
+  opacity: 1;
+  display: flex;
+}
+
+@import "_responsive(1200).scss";
+@import "_responsive(970).scss";
+@import "_responsive(850).scss";
+@import "_responsive(780).scss";
+@import "_responsive(710).scss";
+@import "_responsive(530).scss";

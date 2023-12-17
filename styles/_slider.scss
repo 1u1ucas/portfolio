@@ -1,0 +1,32 @@
+swiper-container {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 400px;
+}
+@media screen and (max-width: 1300px) {
+  swiper-container {
+    max-height: 65%;
+    max-width: 95%;
+  }
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  background-color: #171e2e;
+}
