@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   .map {
     width: 100vw;
     height: 100vh;
@@ -11,8 +11,9 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 100px;
-    padding-top: 40px;
+    gap: 148px;
+    padding-top: 50px;
+    padding-bottom: 90px;
   }
 
   .card-text {
