@@ -122,13 +122,6 @@ html {
   transition: display 4s;
 }
 
-.CV {
-  display: none;
-  opacity: 0;
-  transition: display 1s;
-  cursor: none;
-}
-
 .buble {
   display: flex;
   align-items: center;
@@ -144,25 +137,6 @@ html {
   padding: 9px 15px;
   transition: width 1s;
   text-overflow: ellipsis;
-}
-
-.buble:hover {
-  width: 325px;
-  transition: width 1s;
-}
-
-.buble:hover .infos {
-  transition: opacity 1s;
-  transition: display 1s;
-  opacity: 0;
-  display: none;
-}
-
-.buble:hover .CV {
-  transition: opacity 1s;
-  transition: display 1s;
-  opacity: 1;
-  display: flex;
 }
 
 @import "_responsive(1200).scss";

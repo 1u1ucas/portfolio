@@ -186,6 +186,7 @@ const cards = document.querySelectorAll(".cursor-hover-item");
 const shadow = document.querySelector(".shadow-background");
 const boltPage = document.querySelector(".bolt-page");
 const JAPage = document.querySelector(".JA-page");
+const infoPage = document.querySelector(".info-page");
 const marshallPage = document.querySelector(".Marshall-page");
 const xMark = document.querySelector(".xmark");
 
@@ -220,12 +221,20 @@ const updateCSS = (type, value) => {
       shadow.style.transform = `translateY(0%)`;
       shadow.style.backgroundColor = "rgba(0, 0, 0, 50% )";
       break;
+    case "info":
+      openShadow = true;
+      console.log(openShadow);
+      infoPage.style.transform = `translateY(0%)`;
+      shadow.style.transform = `translateY(0%)`;
+      shadow.style.backgroundColor = "rgba(0, 0, 0, 50% )";
+      break;
     case "shadow":
       openShadow = false;
       console.log(openShadow);
       boltPage.style.transform = `translateY(100%)`;
       marshallPage.style.transform = `translateY(100%)`;
       JAPage.style.transform = `translateY(100%)`;
+      infoPage.style.transform = `translateY(100%)`;
       shadow.style.backgroundColor = "rgba(0, 0, 0, 0% )";
       setTimeout(() => {
         shadow.style.transform = `translateY(100%)`;
@@ -238,6 +247,7 @@ const updateCSS = (type, value) => {
       boltPage.style.transform = `translateY(100%)`;
       marshallPage.style.transform = `translateY(100%)`;
       JAPage.style.transform = `translateY(100%)`;
+      infoPage.style.transform = `translateY(100%)`;
       shadow.style.backgroundColor = "rgba(0, 0, 0, 0% )";
       setTimeout(() => {
         shadow.style.transform = `translateY(100%)`;
