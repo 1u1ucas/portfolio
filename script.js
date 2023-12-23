@@ -188,6 +188,7 @@ const boltPage = document.querySelector(".bolt-page");
 const JAPage = document.querySelector(".JA-page");
 const infoPage = document.querySelector(".info-page");
 const marshallPage = document.querySelector(".Marshall-page");
+const EVApage = document.querySelector(".EVA-page");
 const xMark = document.querySelector(".xmark");
 
 cards.forEach((card) => {
@@ -221,6 +222,13 @@ const updateCSS = (type, value) => {
       shadow.style.transform = `translateY(0%)`;
       shadow.style.backgroundColor = "rgba(0, 0, 0, 50% )";
       break;
+    case "EVA":
+      openShadow = true;
+      console.log(openShadow);
+      EVApage.style.transform = `translateY(0%)`;
+      shadow.style.transform = `translateY(0%)`;
+      shadow.style.backgroundColor = "rgba(0, 0, 0, 50% )";
+      break;
     case "info":
       openShadow = true;
       console.log(openShadow);
@@ -231,6 +239,7 @@ const updateCSS = (type, value) => {
     case "shadow":
       openShadow = false;
       console.log(openShadow);
+      EVApage.style.transform = `translateY(100%)`;
       boltPage.style.transform = `translateY(100%)`;
       marshallPage.style.transform = `translateY(100%)`;
       JAPage.style.transform = `translateY(100%)`;
@@ -244,6 +253,7 @@ const updateCSS = (type, value) => {
     case "xmark":
       openShadow = false;
       console.log(openShadow);
+      EVApage.style.transform = `translateY(100%)`;
       boltPage.style.transform = `translateY(100%)`;
       marshallPage.style.transform = `translateY(100%)`;
       JAPage.style.transform = `translateY(100%)`;
