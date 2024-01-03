@@ -508,14 +508,14 @@ body {
   font-family: Manrope;
   font-size: 64px;
   font-weight: 700;
-  text-shadow: -8px -6px rgba(0, 0, 0, 0.3);
+  text-shadow: -8px -6px 8px rgba(0, 0, 0, 0.3);
 }
 
 .subtitle {
   font-family: Manrope;
   font-size: 52px;
   font-weight: 700;
-  text-shadow: -8px -6px rgba(0, 0, 0, 0.3);
+  text-shadow: -8px -6px 8px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
@@ -539,7 +539,7 @@ body {
 
 .page-text {
   font-family: Manrope;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 200;
 }
 
@@ -705,6 +705,34 @@ body {
   color: white;
 }
 
+#img-bolt,
+#img-JA,
+#img-Marshall,
+#img-EVA {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  cursor: none;
+}
+
+#img-bolt {
+  background-image: url("../assets/Thumbnailbolt.png");
+}
+
+#img-JA {
+  background-image: url("../assets/ThumbnailJessicaAroztegui.png");
+}
+
+#img-Marshall {
+  background-image: url("../assets/Thumbnailmarshall.png");
+}
+
+#img-EVA {
+  background-image: url("../assets/ThumbnailEVA.png");
+}
+
 .cursor .cursor--small,
 .cursor .cursor--large,
 .cursor .cursor--text {
@@ -764,14 +792,13 @@ swiper-slide {
   color: black;
 }
 
-swiper-slide img {
+swiper-slide a {
   display: block;
   width: 100%;
   max-width: 600px;
   height: 100%;
   max-height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  min-height: 250px;
   background-color: #171e2e;
 }
 
@@ -835,7 +862,7 @@ html {
   width: 350px;
   height: 350px;
   background-size: cover;
-  box-shadow: -20px -20px rgba(0, 0, 0, 0.3);
+  box-shadow: -20px -20px 9px rgba(0, 0, 0, 0.3);
   filter: grayscale(100%);
   transition: filter 1s;
   cursor: none;
@@ -847,7 +874,7 @@ html {
   width: 275px;
   height: 275px;
   background-size: cover;
-  box-shadow: -20px -20px rgba(0, 0, 0, 0.3);
+  box-shadow: -20px -20px 9px rgba(0, 0, 0, 0.3);
   cursor: none;
 }
 
@@ -857,33 +884,37 @@ html {
 }
 
 .bolt-card {
-  -o-object-fit: contain;
-     object-fit: contain;
-  box-shadow: -10px -14px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/Thumbnailbolt.png");
+  background-position: top;
+  background-size: contain;
+  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
 
 .JA-card {
-  -o-object-fit: contain;
-     object-fit: contain;
-  box-shadow: -10px -14px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/ThumbnailJessicaAroztegui.png");
+  background-position: top;
+  background-size: contain;
+  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
 
 .Marshall-card {
-  -o-object-fit: contain;
-     object-fit: contain;
-  box-shadow: -10px -14px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/Thumbnailmarshall.png");
+  background-position: top;
+  background-size: contain;
+  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
 
 .EVA-card {
-  -o-object-fit: contain;
-     object-fit: contain;
-  box-shadow: -10px -14px rgba(0, 0, 0, 0.3);
+  background-image: url("../assets/ThumbnailEVA.png");
+  background-position: top;
+  background-size: contain;
+  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
 }
@@ -1008,11 +1039,6 @@ html {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.5);
-  }
-  .page-text {
-    font-family: Manrope;
-    font-size: 14px;
-    font-weight: 200;
   }
   .page-realisation {
     font-family: Manrope;
