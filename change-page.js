@@ -1,11 +1,11 @@
 const map = document.querySelector(".map");
-console.log("map", map);
+const parent = document.querySelector(".parent");
 
 const linearBtn = document.querySelector(".page-lineaire");
-console.log("page-linear", linearBtn);
 
 linearBtn.addEventListener("click", function () {
   map.classList.add("map-change");
+  parent.style.gap = "60px";
 });
 
 const freeBtn = document.querySelector(".page-libre");

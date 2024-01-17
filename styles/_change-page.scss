@@ -1,14 +1,30 @@
 .change-page {
   position: fixed;
-  bottom: 40px;
+  bottom: 30px;
   left: 42%;
 }
 
 .page-button {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   color: white;
 }
+
+.button {
+  background-color: #171e2e;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: white;
+}
+
+.button:hover {
+  color: #171e2e;
+}
+
 .map-change {
   width: 100vw;
   height: 100vh;
