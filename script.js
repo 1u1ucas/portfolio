@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.addEventListener("mousemove", function (e) {
     if (isDragging && !openShadow) {
-      const offsetX = (e.clientX - startX) * 2;
-      const offsetY = (e.clientY - startY) * 2;
+      const offsetX = (e.clientX - startX) * 1.5;
+      const offsetY = (e.clientY - startY) * 1.5;
       let newLeft = mapLeft + offsetX;
       let newTop = mapTop + offsetY;
 

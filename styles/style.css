@@ -965,6 +965,37 @@ html {
   text-overflow: ellipsis;
 }
 
+.change-page {
+  position: fixed;
+  bottom: 40px;
+  left: 42%;
+}
+
+.page-button {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.map-change {
+  width: 100vw;
+  height: 100vh;
+  position: unset;
+  overflow: auto;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 148px;
+  padding: 0px 40px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
 @media screen and (max-width: 1200px) {
   .map {
     width: 100vw;

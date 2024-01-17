@@ -164,6 +164,8 @@ html {
   text-overflow: ellipsis;
 }
 
+@import "_change-page.scss";
+
 @import "_responsive(1200).scss";
 @import "_responsive(970).scss";
 @import "_responsive(850).scss";
