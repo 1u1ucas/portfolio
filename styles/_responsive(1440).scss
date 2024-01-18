@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+  .map {
+    width: 2500px;
+    height: 1700px;
+    left: auto;
+    top: auto;
+    overflow: auto;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 148px;
+    padding: 0px 40px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    left: -542px;
+    top: -618px;
+  }
+
+  .infos-user {
+    left: 44.5%;
+  }
+}

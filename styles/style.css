@@ -828,14 +828,14 @@ html {
 }
 
 .map {
-  width: 2500px;
-  height: 1700px;
+  width: 4000px;
+  height: 2500px;
   background-color: #171e2e;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  left: -542px;
-  top: -618px;
+  left: -843px;
+  top: -916px;
   overflow: hidden;
   cursor: none;
   -webkit-user-select: none;
@@ -1010,7 +1010,7 @@ html {
 .infos-user {
   position: fixed;
   bottom: 80px;
-  left: 44.5%;
+  left: 43.5%;
   color: white;
   opacity: 1;
   transition: opacity 6s;
@@ -1020,6 +1020,32 @@ html {
   opacity: 0;
 }
 
+@media screen and (max-width: 1200px) {
+  .map {
+    width: 2500px;
+    height: 1700px;
+    left: auto;
+    top: auto;
+    overflow: auto;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 148px;
+    padding: 0px 40px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    left: -542px;
+    top: -618px;
+  }
+  .infos-user {
+    left: 44.5%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .map {
     width: 100vw;
