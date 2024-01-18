@@ -846,6 +846,7 @@ html {
   align-items: center;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 
 .parent {
@@ -932,6 +933,7 @@ html {
 
 .JA .card-text {
   bottom: -80px;
+  text-align: initial;
 }
 
 .card:hover .card-text {
