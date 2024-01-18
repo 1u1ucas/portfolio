@@ -920,7 +920,7 @@ html {
   left: 16px;
   color: white;
   opacity: 0;
-  transition: opacity 2s;
+  transition: opacity 3s;
   text-shadow: -8px -6px rgba(0, 0, 0, 0.3);
 }
 
@@ -931,7 +931,7 @@ html {
 
 .card:hover .card-text {
   opacity: 1;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 .infos {
@@ -973,18 +973,19 @@ html {
 }
 
 .button {
-  background-color: #171e2e;
+  background-color: #2c3a58;
   padding: 10px 20px;
   border-radius: 50px;
   font-weight: 600;
 }
 
 .button:hover {
-  background-color: white;
+  transition: all 500ms;
+  background-color: #4c6498;
 }
 
 .button:hover {
-  color: #171e2e;
+  color: #202a40;
 }
 
 .map-change {
@@ -1004,6 +1005,19 @@ html {
   padding: 0px 40px;
   padding-top: 50px;
   padding-bottom: 90px;
+}
+
+.infos-user {
+  position: fixed;
+  bottom: 80px;
+  left: 44.5%;
+  color: white;
+  opacity: 1;
+  transition: opacity 6s;
+}
+
+.invisible {
+  opacity: 0;
 }
 
 @media screen and (max-width: 1200px) {

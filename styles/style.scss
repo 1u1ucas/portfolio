@@ -117,7 +117,7 @@ html {
   left: 16px;
   color: white;
   opacity: 0;
-  transition: opacity 2s;
+  transition: opacity 3s;
   text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
 }
 
@@ -128,7 +128,7 @@ html {
 
 .card:hover .card-text {
   opacity: 1;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 .infos {
