@@ -888,33 +888,24 @@ html {
 
 .bolt-card {
   background-image: url("../assets/Thumbnailbolt.png");
-  background-position: top;
-  background-size: contain;
-  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
 }
 
 .JA-card {
   background-image: url("../assets/ThumbnailJessicaAroztegui.png");
-  background-position: top;
-  background-size: contain;
-  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
 }
 
 .Marshall-card {
   background-image: url("../assets/Thumbnailmarshall.png");
-  background-position: top;
-  background-size: contain;
-  box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  height: 100%;
 }
 
 .EVA-card {
   background-image: url("../assets/ThumbnailEVA.png");
+}
+
+.bolt-card,
+.EVA-card,
+.Marshall-card,
+.JA-card {
   background-position: top;
   background-size: contain;
   box-shadow: -10px -14px 9px rgba(0, 0, 0, 0.3);
