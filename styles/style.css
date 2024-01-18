@@ -551,6 +551,7 @@ body {
 
 .decoration-none {
   text-decoration: none;
+  cursor: none;
 }
 
 .white {
@@ -645,6 +646,7 @@ body {
   justify-content: center;
   gap: 20px;
   flex-direction: row;
+  text-align: center;
 }
 
 .logos-container {
@@ -999,7 +1001,7 @@ html {
   height: 100vh;
   position: unset;
   overflow: auto;
-  cursor: pointer;
+  cursor: none;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
