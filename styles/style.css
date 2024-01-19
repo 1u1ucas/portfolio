@@ -532,14 +532,14 @@ body {
 
 .page-subtitle {
   font-family: Manrope;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
 }
 
 .page-text {
   font-family: Manrope;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 200;
 }
 
@@ -1044,6 +1044,12 @@ html {
   }
   .infos-user {
     left: 44.5%;
+  }
+  .page-subtitle {
+    font-size: 20px;
+  }
+  .page-text {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1200px) {
