@@ -110,6 +110,11 @@ html {
   height: 100%;
 }
 
+.JA .card-text {
+  bottom: -80px;
+  text-align: initial;
+}
+
 .card-text {
   text-decoration: none;
   position: absolute;
@@ -119,11 +124,6 @@ html {
   opacity: 0;
   transition: opacity 3s;
   text-shadow: -8px -6px rgba($color: #000000, $alpha: 30%);
-}
-
-.JA .card-text {
-  bottom: -80px;
-  text-align: initial;
 }
 
 .card:hover .card-text {
@@ -157,8 +157,6 @@ html {
   text-overflow: ellipsis;
 }
 
-@import "_change-page.scss";
-
 @import "_responsive(1440).scss";
 @import "_responsive(1200).scss";
 @import "_responsive(970).scss";
@@ -168,3 +166,5 @@ html {
 @import "_responsive(530).scss";
 @import "_responsive(425).scss";
 @import "_responsive(375).scss";
+
+@import "_change-page.scss";

@@ -1,22 +1,12 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1440px) {
   .map {
     width: 2500px;
     height: 1700px;
     left: auto;
     top: auto;
     overflow: auto;
-    cursor: pointer;
-    user-select: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 148px;
-    padding: 0px 40px;
-    padding-top: 50px;
-    padding-bottom: 90px;
-    left: -542px;
-    top: -618px;
+    left: -547px;
+    top: -654px;
   }
 
   .infos-user {
@@ -24,9 +14,9 @@
   }
 
   .page-subtitle {
-    font-size: 20px;;
+    font-size: 20px;
   }
-  
+
   .page-text {
     font-size: 16px;
   }

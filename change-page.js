@@ -1,8 +1,8 @@
 const map = document.querySelector(".map");
 const parent = document.querySelector(".parent");
 const pages = document.querySelectorAll(".grid-item");
-const JACardsText = document.querySelectorAll(".JA .card-text");
 const InfosUser = document.querySelector(".infos-user");
+const JACardsText = document.querySelectorAll(".JA .card-text");
 
 const linearBtn = document.querySelector(".page-lineaire");
 
